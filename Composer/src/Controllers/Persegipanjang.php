@@ -6,7 +6,7 @@ class Persegipanjang
 {
    function Bangunan()
    {
-      if (isset($_POST['luas'])){
+      if (isset($_POST['proses'])){
       $panjang=$_POST['panjang'];
       $lebar=$_POST['lebar'];
       $Luaspersegipanjang= $panjang * $lebar;

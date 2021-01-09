@@ -3,7 +3,7 @@ class Jajargenjang
 {
    function Datar()
    {
-      if (isset($_POST['luas'])){
+      if (isset($_POST['proses'])){
       $alas=$_POST['alas'];
       $tinggi=$_POST['tinggi'];
       $luasjajargenjang= ($alas * $tinggi);
